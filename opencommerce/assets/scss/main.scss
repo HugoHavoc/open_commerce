@@ -1,0 +1,24 @@
+
+@import 'responsivo';
+@import 'geral';
+@import 'footer';
+@import 'header';
+@import 'home';
+@import 'menu';
+
+
+//#1C1C1C
+//#6C6C6C
+//#707070
+//#00000029
+//#343434
+//#1E1E1E
+
+html {scroll-behavior: smooth;}
+body{overflow-x: hidden;}
+
+@font-face {
+    font-family: keep;
+    src: url('fonts/KeepCalm-Medium.ttf');
+}
+

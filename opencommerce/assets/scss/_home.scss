@@ -1,0 +1,200 @@
+.home{
+    .chamada-nuvem{
+        background-color: #905edc;
+        .chamada-nuvem-content{
+            display: flex;
+            justify-content: space-between;
+            // align-items: center;
+            .img-nuvem{
+                width: 25%;
+                a{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 200px;
+                        height: 100%;
+                    }
+                }
+            }
+            .nuvem-info{
+                width: 50%;
+                align-self: center;
+
+                h2{
+                    color: #fff;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    font-size: 1.6rem;
+                    text-shadow: 2px 2px 2px #7e67a5;
+                }
+                p{
+                    color: #fff;
+                    margin-bottom: 0;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.15rem;
+                    text-shadow: 2px 2px 2px #7e67a5;
+
+                }
+            }
+            .info-parceiro{
+                width: 25%;
+                align-self: center;
+                text-align: right;
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+    .chamada-servico{
+        padding: 2.5rem 0;
+        .head-wraper{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            h2{
+                color: #2d3356;
+                font-weight: bold;
+                margin-bottom: 0;
+                font-size: 1.7rem;
+            }
+            p{
+                color: #2d3356;
+                margin-top: .5rem;
+                font-size: .95rem;
+            }
+        }
+    }
+    .planos-home{
+        background: rgb(60,57,105);
+        background: linear-gradient(90deg, rgba(60,57,105,1) 17%, rgba(95,72,154,1) 44%, rgba(131,87,204,1) 74%, rgba(144,94,220,1) 100%);
+        padding: 3.5rem 0;
+        .head-wraper{
+          h2{
+            text-align: center;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            margin-bottom: .5rem;
+            font-size: 1.3rem;
+          }
+          p{
+            text-align: center;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+          }
+        }
+        .cont-planos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 3rem 0;
+            .item-plano{
+                width: 23%;
+                background-color: #fff;
+                border-radius: 30px;
+                padding: 1.5rem 1.5rem;
+                text-align: center;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                h3{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.43rem;
+                    font-weight: bold;
+                }
+                .prince{
+                    color: #905edc;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    margin-bottom: .5rem;
+                    span:nth-child(1){
+                        font-size: .8rem;
+                    }
+                    span:nth-child(2){
+                        font-size: 1.35rem;
+                    }
+                } 
+                .info-plano{
+                    font-family: 'Montserrat', sans-serif;
+                    p{
+                        font-size: .8rem;
+                    }
+                    a{
+                        color: #905edc;
+                        text-decoration: underline;
+                        font-size: .8rem;
+                        margin-bottom: .8rem;
+                        display: block;
+                    }
+                } 
+                .btn-plano{
+                    position: absolute;
+                    width: 210px;
+                    bottom: -17px;
+                    a{
+                        // background: #7e67a5;
+                        background: #35e1eb;
+                        color: #000;
+                        font-family: 'Montserrat', sans-serif;
+                        width: 100%;
+                        display: block;
+                        padding: .5rem;
+                        font-size: .9rem;
+                        border-radius: 30px;
+                        text-decoration: none;
+                        font-weight: bold;
+                        transition: all ease-in-out .5s;
+                        &:hover{
+                            background: #7e67a5;
+                            color: #fff;
+                        }
+                    }
+                } 
+            }
+        }
+        .chamada-duvidas{
+            margin-top: 4rem;
+            h4{
+                text-align: center;
+                color: #fff;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                margin-bottom: .5rem;
+                font-size: 1.2rem;
+            }
+            p{
+                text-align: center;
+                color: #fff;
+                font-family: 'Montserrat', sans-serif;
+                font-size: .85rem;
+            }
+            .btn-solicitar{
+                display: flex;
+                justify-content: center;
+                a{
+                    background: #ff308e;
+                    // border: solid 1px #ff308e;
+                    text-align: center;
+                    color: #fff;
+                    font-family: 'Montserrat', sans-serif;
+                    padding: .8rem 2.5rem;
+                    border-radius: 30px;
+                    font-weight: bold;
+                    font-size: .85rem;
+                    text-decoration: none;
+                    transition: all ease-in-out .5s;
+                    &:hover{
+                        background: #fff;
+                        color: #ff308e;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,7 +1,42 @@
 <?php // Template Name: Home ?> 
 <?php  get_header(); ?>
 <main class="home">
-
+    <section class="banner-home">
+        <div class="container cont-banner-home">
+            <div class="col-informacoes">
+                <h1>Somos especialistas na</h1>
+                <h1>implantação de lojas virtuais <br> da Nuvem Shop</h1>
+                <p>Nosso objetivo é ajudar você a iniciar seu projeto de <br> e-commerce a partir de uma plataforma completa da <br> <strong>Nuvem Shop</strong>, e deixamos o ambiente pronto para que <br> você possa <strong>iniciar suas vendas online em até 24 horas.</strong></p>
+                <div class="btn-planos">
+                    <a href="">Conheça nossos planos</a>
+                </div>
+            </div>
+            <div class="col-form">
+                <div class="form-chamada">  
+                    <div class="header-wraper">
+                        <h2>Solicite sua Loja Virtual agora!</h2>
+                        <img src="" alt="">
+                    </div>
+                    <div class="form">
+                        <p>Preencha seus dados abaixo:</p>
+                        <div class="input-solo">
+                            <input type="text" name="nome" placeholder="Nome">
+                        </div>  
+                        <div class="input-solo">
+                            <input type="tel" name="tel" placeholder="Celular / Whatsapp">
+                        </div>    
+                        <div class="input-solo">
+                            <input type="email" name="email" placeholder="E-mail">
+                        </div>   
+                        <p>Agora, selecione o plano ideal:</p>
+                        <select name="" id="">
+                            <option value="">Plano 01</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
     <section class="chamada-nuvem">
         <div class="container chamada-nuvem-content">
             <div class="img-nuvem">

@@ -1,4 +1,54 @@
 .home{
+    .banner-home{
+        background: url('../imgs/banner.png')no-repeat;
+        background-size: cover;
+        padding: 4.5rem;
+        height: 60vh;
+        display: flex;
+        align-content: center;
+        .cont-banner-home{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         
+            
+        }
+        h1{
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            margin-bottom: 0;
+            font-size: 2.8rem;
+            // text-shadow: 2px 2px 2px #000;
+        }
+        h1:nth-child(2){
+            font-weight: normal;
+            text-shadow: none;
+        }
+        p{
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 1.2rem 0;
+        }
+        a{
+            background: #ff308e;
+            // border: solid 1px #ff308e;
+            text-align: center;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            padding: .8rem 2rem;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: .85rem;
+            text-decoration: none;
+            transition: all ease-in-out .5s;
+            &:hover{
+                background: #905edc;
+                color: #fff;
+                
+            }
+        }
+    }
     .chamada-nuvem{
         background-color: #905edc;
         .chamada-nuvem-content{
